@@ -1,44 +1,54 @@
-/* Styling Only Related To ALL Pages */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,16..72,100..900;1,16..72,100..900&display=swap');
 
 body {
-  padding-top: 30px;
-  margin-left: 0px;
-}
-/* ⬆⬆⬆⬆ Nav Bar Styling 
-~~~~~ Taken From: 
-https://www.w3schools.com/css/css_navbar_horizontal.asp */
-ul {
-  list-style-type: none;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
 }
 
-li {
-  float: left;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
-li a {
-  display: block;
+.fear-box {
+  background-color: #ff1c42;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 80px 120px;
+  font-size: 48px;
+  border-radius: 12px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.button-group {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 18px 40px;
+  font-size: 16px;
   text-decoration: none;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  border: 2px solid white;
+  transition: 0.3s ease;
+ 
 }
 
-li a:hover:not(.active) {
-  background-color: orange;
+.nav-button:hover {
+  background-color: transparent;
+  color: white;
 }
 
-.active {
-  background-color: red;
-}
-
-h1 {
-  width: 100%;
-}
