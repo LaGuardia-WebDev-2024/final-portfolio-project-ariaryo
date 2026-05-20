@@ -9,6 +9,11 @@ body {
   margin: 0;
 }
 
+body.top-page {
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -27,6 +32,44 @@ body {
   font-weight: 700;
   font-style: normal;
 }
+
+.jpn-box {
+  background-color: #290209;
+  color: rgb(202, 45, 45);
+  padding: 30px 120px;
+  font-size: 48px;
+  border-radius: 26px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+.kr-box {
+  background-color: #052910;
+  color: rgb(71, 143, 101);
+  padding: 30px 120px;
+  font-size: 48px;
+  border-radius: 26px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+.us-box {
+  background-color: #774e11;
+  color: rgb(255, 221, 127);
+  padding: 30px 120px;
+  font-size: 48px;
+  border-radius: 26px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
 
 .button-group {
   display: flex;
